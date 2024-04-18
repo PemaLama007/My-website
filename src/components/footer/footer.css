@@ -7,7 +7,7 @@
     padding: 2rem 0 6rem;
 }
 
-.footer__title,
+.footer__title a,
 .footer__link {
     color: var(--title-color);
 }
@@ -18,7 +18,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    color: white;
 }
 
 .footer__list {
@@ -33,7 +33,14 @@
     justify-content: center;
     column-gap: 1.25rem;
 }
-
+hr{
+    padding: 1px;
+    width: 200px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.301);
+    margin-bottom: 10px;
+    outline: none;
+}
 .footer__social-link {
     background-color: var(--title-color);
     color: var(--container-color);
